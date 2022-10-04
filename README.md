@@ -12,12 +12,12 @@ To enter the work environment, issue:
 ```
 nix-shell env39tf.nix
 ```
-##To enter the work environment, show umaps and conduct the post analysis, issue :
+## To enter the work environment, show umaps and conduct the post analysis, issue :
 ```
 env39tf_show_article_clusters_do_post_analysis.nix
 ```
 
-##To enter the work environment and execute all code, issue:
+## To enter the work environment and execute all code, issue:
 ```
 env39tf_and_run_all.nix
 ```
