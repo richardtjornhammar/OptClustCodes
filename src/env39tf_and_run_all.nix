@@ -86,7 +86,7 @@ in stdenv.mkDerivation rec {
     echo ">>> import os,sys"
     python3 get_mnist_data.py
     python3 get_water_data.py
-    pythno3 distm_graph.py
+    python3 distm_graph.py
     python3 get_pima_data.py
     python3 generate_umaps_and_distance_matrices_hierarchies.py
     python3 compare_CCA_LCA.py
