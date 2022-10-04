@@ -60,12 +60,12 @@ python3 generate_umaps_and_distance_matrices_hierarchies.py
 python3 compare_CCA_LCA.py
 ```
 
-# Conduct the full hierarchy (LCA) solutions
+# Conduct the full hierarchy and information function via (LCA) solutions
 ```
 python3 LCA_clustering.py
 ```
 
-# Calculate the information function for water 
+# Conduct the optimisation strategy
 ```
 python3 find_optimal_segmentations.py
 ```
@@ -75,7 +75,7 @@ python3 find_optimal_segmentations.py
 python3 produce_optclust_annotated_umap.py
 ```
 
-# Show three UMAP solutions : Water,Pima,Mnist
+# Show three UMAP solutions : Water, Pima, Mnist
 ```
 python3 show_umap_solution.py
 ```
