@@ -91,15 +91,9 @@ in stdenv.mkDerivation rec {
     python3 generate_umaps_and_distance_matrices_hierarchies.py
     python3 compare_CCA_LCA.py
     python3 LCA_clustering.py
-    #python3 mnist_LCA_clustering.py
-    #python3 pima_LCA_clustering.py
-    #python3 water_LCA_clustering.py
     python3 find_optimal_segmentations.py
     python3 produce_optclust_annotated_umap.py
     python3 show_umap_solution.py
-    #python3 show_umap_solution_water.py
-    #python3 show_umap_solution_pima.py
-    #python3 show_umap_solution_mnist.py
     python3 post_analysis_pima.py
     python3 post_analysis_mnist.py
   '';
