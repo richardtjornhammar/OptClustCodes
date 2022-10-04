@@ -1,0 +1,1 @@
+This directory contains all the run files as well as the nix shell files. The nix files builds the needed environment but also executes the codes
