@@ -56,10 +56,12 @@ if __name__ == '__main__' :
         optims = pd.read_csv ( results_dir + '../results/.optimums_df.tsv', sep='\t', index_col=0 )
         print ( optims )
         #
-        if True :
+        if False :
             #
             # CREATE CLUSTER LABELS
             # THESE TWO METHODS PRODUCE IDENTICAL RESULTS
+            # THIS ONE IS FASTER BUT NEEDS COORDINATES INSTEAD
+            # OF DISTANCE MATRIX AS INPUT
             #
             if bUseUmap :
                 axis_labels  = ['UMAP ' + str(i) for i in range(2) ]
