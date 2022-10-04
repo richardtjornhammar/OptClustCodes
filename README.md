@@ -3,6 +3,9 @@ Codes needed to reproduce the https://arxiv.org/abs/2208.04720 paper
 
 # To reproduce qualitatively equivalent results
 Take these steps
+```
+cd src
+```
 
 # Enter an enviroment
 To enter the work environment, issue:
