@@ -84,9 +84,7 @@ in stdenv.mkDerivation rec {
     echo "HELLO DEAR DEV"
     echo "FOR CUSTOM PYTHON INCLUDE LIKE THIS:"
     echo ">>> import os,sys"
-    python3 show_umap_solution_water.py
-    python3 show_umap_solution_pima.py
-    python3 show_umap_solution_mnist.py
+    python3 show_umap_solution.py
     python3 post_analysis_pima.py
     python3 post_analysis_mnist.py
   '';
